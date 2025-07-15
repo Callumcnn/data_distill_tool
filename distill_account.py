@@ -3,12 +3,12 @@
 from GenerateConfig import *
 
 '''此处修改为自己的url'''
-li_gpt4o_url = 'https://chennuo5.fc.chj.cloud/gpt4o/conversation'
-# li_gpt4o_url = 'https://llm-app-wangze8.fc.chj.cloud/gpt4o/conversation'
+li_gpt4o_url = ''
+# li_gpt4o_url = ''
 
 '''若使用vllm 在此处配置参数'''
 api_key = "test"
-llm_url = "http://10.80.11.174:1688/v1/"
+llm_url = ""
 
 generate_config: GenerateConfig = {
     "model": "qwen",
